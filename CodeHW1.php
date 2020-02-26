@@ -88,8 +88,8 @@ echo "<p>Your change is $dollar dollars, $quarter quarters, $dime dimes, $nickel
 $bottles = 12;
 
 # Create a for loop that runs the conditional and then prints out a statement that is the nursery rhyme.
-for ($bottles = 12; $bottles <= 12; --$bottles){
-		echo "<p>$bottles bottles of beer on the wall. $bottles bottles of beer! Take one down and pass it around. </p>";
+for ($bottles = 12; $bottles > 0; --$bottles){
+		echo "<p>$bottles bottles of beer on the wall. $bottles bottles of beer!  $bottles bottlesof beer on the wall </p>";
 		# Create a break in the loop so that it does not go on forever.
 		if ($bottles == 0) break;
 		}
