@@ -1,0 +1,76 @@
+/*#CSS file.*/
+h1 {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: crimson;
+	text-align: center;
+	/*padding: 2px;*/
+
+}
+
+h2 { 
+  font-family: Helvetica;
+  font-size: 30px;
+  color: crimson;
+  /*padding: 2px;*/
+}
+
+
+ table,th,td {
+    border:2px solid crimson;
+}
+
+table{
+    border-collapse:collapse;
+    width:30%;
+    color: white;
+}
+
+td{
+    height:30px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: crimson;
+  margin-bottom: 20px;
+
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: lightgreen;
+}
+
+
+
+p {
+	font-family: Helvetica;
+	font-size: 15px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	height: 10px;
+
+	
+}
+
